@@ -47,6 +47,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.0",
-    "@openzeppelin/contracts-upgradeable": "^4.8.0"
+    "@openzeppelin/contracts-upgradeable": "^4.8.0",
+    "@summa-tx/memview.sol": "^1.1.0"
   }
 }

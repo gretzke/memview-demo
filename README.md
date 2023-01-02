@@ -1,14 +1,10 @@
-# Sample Hardhat Project
+# Memview Demo
 
 [![License](https://img.shields.io/badge/License-AGPLv3-green.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![CI Status](https://github.com/gretzke/hardhat-typescript-template/actions/workflows/tests.yml/badge.svg)](https://github.com/gretzke/hardhat-typescript-template/actions)
-[![Coverage Status](https://coveralls.io/repos/github/gretzke/hardhat-typescript-template/badge.svg?branch=main&t=ZTUm69)](https://coveralls.io/github/gretzke/hardhat-typescript-template?branch=main)
+[![CI Status](https://github.com/gretzke/memview-demo/actions/workflows/tests.yml/badge.svg)](https://github.com/gretzke/memview-demo/actions)
+[![Coverage Status](https://coveralls.io/repos/github/gretzke/memview-demo/badge.svg?branch=main&t=ZTUm69)](https://coveralls.io/github/gretzke/memview-demo?branch=main)
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
-
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
-
-This project also includes Foundry for advanced testing like fuzzing.
+The Solidity library [MemView](https://github.com/summa-tx/memview-sol) is a very powerful tool for parsing and validating arbitrary data. The purpose of this repo is to demonstrate the use of MemView in a smart contract. The contracts are a POC of a bridge contract that accepts an arbitrary `bytes` payload and parses it to execute different kinds of transactions (e.g., ERC20 transfers, NFT transfers or arbitrary contract calls). The code also demonstrates nested MemViews, which are useful for parsing complex data structures. MemView also allows for very flexible data handling, making it easy to add more functionality through upgrades.
 
 ## Build and Test
 
