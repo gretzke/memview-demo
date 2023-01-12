@@ -19,7 +19,7 @@
   "author": "Daniel Gretzke",
   "license": "AGPL-3.0-only",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
     "@openzeppelin/hardhat-upgrades": "^1.21.0",
     "@primitivefi/hardhat-marmite": "0.0.4",
     "@types/chai": "^4.3.4",
